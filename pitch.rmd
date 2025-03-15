@@ -1,0 +1,48 @@
+---
+title: "Regression Line and Prediction: Weight vs Mileage"
+author: "Akshay"
+date: "`r Sys.Date()`"
+output: 
+    ioslides_presentation:
+        widescreen: true
+        smaller: true
+---
+
+## Introduction
+
+- This app demonstrates the relationship between car weight (in lbs) and mileage (in mpg).
+- Built using the `mtcars` dataset and a linear regression model.
+- Predicts mileage based on user-provided car weight.
+
+
+## Dataset: mtcars
+
+- The `mtcars` dataset is a built-in R dataset.
+- Contains data on 32 car models, including:
+  - Weight (`wt`) in 1000s of lbs.
+  - Mileage (`mpg`) in miles per gallon.
+- Used to build a regression model for prediction.
+
+
+## App Functionality
+
+- **Input:** User enters car weight (lbs).
+- **Output:**
+  - Regression plot with data points, regression line, and predicted point.
+  - Predicted mileage displayed below the plot.
+- Interactive and user-friendly interface.
+
+
+## Demonstration
+
+
+<iframe src="https://infinity-akshay.shinyapps.io/Shiny/" width="100%" height="500px" style="border:none;"></iframe>
+
+
+## Conclusion
+
+- This app provides an intuitive way to explore the relationship between car weight and mileage.
+- Demonstrates the power of regression modeling in data analysis.
+- Try it yourself and predict mileage for different car weights!
+
+
