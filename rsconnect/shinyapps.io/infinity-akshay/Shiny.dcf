@@ -1,0 +1,13 @@
+name: Shiny
+title: Shiny
+username: infinity-akshay
+account: infinity-akshay
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14252500
+bundleId: 9947797
+url: https://infinity-akshay.shinyapps.io/Shiny/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: test.r
