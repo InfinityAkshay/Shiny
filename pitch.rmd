@@ -24,13 +24,21 @@ output:
 - Used to build a regression model for prediction.
 
 
-## App Functionality
 
-- **Input:** User enters car weight (lbs).
-- **Output:**
-  - Regression plot with data points, regression line, and predicted point.
-  - Predicted mileage displayed below the plot.
-- Interactive and user-friendly interface.
+## Regression Line
+
+Model:
+```{r}
+model <- lm(mpg ~ wt, data = mtcars)
+```
+
+
+```{r echo=FALSE}
+plot(mtcars$wt, mtcars$mpg, pch = 16, col = rgb(0, 0, 0, 0.5), 
+     xlab = "Weight (1000 lbs)", ylab = "Mileage (mpg)", 
+     main = "Regression Line: Weight vs Mileage")
+abline(model, col = "blue", lwd = 2)
+```
 
 
 ## Demonstration
@@ -45,4 +53,10 @@ output:
 - Demonstrates the power of regression modeling in data analysis.
 - Try it yourself and predict mileage for different car weights!
 
+<br>
+**Links**
+
+- The app is hosted on [ShinyApps.io](https://infinity-akshay.shinyapps.io/Shiny/).
+- The code for the app is available on [GitHub](https://github.com/InfinityAkshay/Shiny)
+- The presentation is available on [Github Pages](https://infinityakshay.github.io/Shiny/)
 
